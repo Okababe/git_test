@@ -1,0 +1,66 @@
+/** {border: 1px solid red;}*/
+
+ body {
+	background: linear-gradient (#F39F3D, #701D0B);
+	color: #F9FAF8;
+	background-image:url(tvfacing.jpg);
+}
+ .header{
+	
+	float: right;
+	margin-right: 60px;
+	padding:20px;
+}
+a{ padding:10px;}
+a:link{color:#F9FAF8; text-decoration:none;}
+a:visited{color:#F9FAF8; text-decoration:none;}
+a:hover{color:yellow; text-decoration:none;}
+
+ .logo{
+	max-width:10%;
+	height:auto;
+}
+.video1{
+	display:flex;
+	justify-content:space-around;
+	border-radius:4px;
+	overflow: hidden;
+}
+ .mainimg{
+	max-width:40%;
+	height:auto;
+}
+.float{
+	padding-top:100px;
+}
+button {
+	border-radius:4px;
+	background-color:#F39F3D;
+	color:#701D0B;
+	border-color:yellow;
+	
+}
+.row {display:flex;}
+.column {flex: 50%; padding:5px; margin:20px;}
+
+.pic {
+	max-width:150px;
+	height:auto;
+	border-radius:4px;
+} 
+.htwo {text-align:center; margin-top:60px;}
+.quote {
+	background-color:#a3937e; 
+	font-size:30px; 
+	text-align:center;
+	padding:20px;
+}
+.action {
+	background-color:#F39F3D; 
+	color:#F9FAF8; 
+	margin-top:100px; 
+	text-align:center; 
+	padding: 60px;
+	font-size:30px;
+}
+footer { text-align:center; font-size:12px;}
